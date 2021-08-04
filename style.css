@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #F2D0A7;
+    --cor02: #6FA673;
+    --cor03: #A67356;
+    --cor04: #8C0303;
+    --cor05: #0D0D0D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo: 'Dosis', sans-serif;
+    --fonte-titulo2: 'Dancing Script', cursive;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: white;
+}
+
+header {
+    background-color: var(--cor03);
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: var(--cor05);
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1050px;
+}  
+
+.capa .principal {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 15px;
+}
+
+
+.capa nav {
+    font-family: var(--fonte-titulo);
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.capa nav a {
+    text-decoration: none;
+    color: var(--cor05);
+    padding: 30px;
+}
+
+.capa nav a:hover {
+    color: var(--cor04);
+    transition-duration: 0.5s;
+}
+
+.texto img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 0px #2d2d2d66;
+}
+
+.texto nav {
+    font-family: var(--fonte-titulo);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.texto nav a {
+    text-decoration: none;
+    color: var(--cor04);
+    padding: 5px;
+}
+
+.texto nav a:hover {
+    color: var(--cor02);
+}
+
+hr {
+   border-color: var(--cor01);
+   border-top: 0;
+}
+
+h1 {
+    font-family: var(--fonte-titulo2);
+    font-size: 4em;
+    text-align: center;
+    padding: 30px 20px 10px;
+}
+
+.apresentacao p {
+    line-height: 25px;
+    padding: 20px 20px 0px;
+    text-align: justify;
+}
+
+.restaurante {
+    padding: 20px;
+    line-height: 25px;
+    text-align: justify;
+    background-color: white;
+}
+
+h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 30px 10px 10px;
+}
+
+.referencia {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0px 0px 10px;
+}
+
+.referencia a {
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+.referencia a:hover {
+    color: var(--cor04);
+    text-decoration: underline;
+}
+
+.referencia img {
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
+.restaurante p{
+    padding: 5px 10px;
+    line-height: 25px;
+    
+}
+
+.img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 30px 0px;
+}
+
+strong {
+    color: var(--cor04);
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: var(--cor05);
+    color: darkgray;
+    padding: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: darkgray;
+    padding: 20px;
+}
+
+footer nav a:hover {
+    color: black;
+}
+
+footer p {
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
